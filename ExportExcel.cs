@@ -4,7 +4,7 @@ using ClosedXML.Excel;
 
 internal static partial class ExportExcel
 {
-    public static void ExceleAktar(string FileName, string SQL)
+    public static void DoExport(string FileName, string SQL)
     {
         using (var con = new SqlConnection(ConnectionString))
         {
